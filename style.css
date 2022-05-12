@@ -1,0 +1,80 @@
+body
+{
+    overflow-x: hidden;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("img/s.jpg");
+background-attachment: fixed;
+   background-size: cover;
+   filter: unquote("progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 )");
+   height: 100vh;
+    width: 100%;
+}
+.z{
+    font-size: 3rem; 
+    color: #fff !important;
+    filter: brightness(150%);
+opacity: 1;
+z-index: 122;
+}
+.a{
+   background-image: url("img/z.jpg");
+   background-attachment: fixed;
+   background-size:cover;
+   
+}
+.a h1 ,p{
+    color: #fff; 
+    text-transform: capitalize;
+
+}
+.d{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.227),rgba(0, 0, 0, 0.2)) , url("img/por.jpg");
+background-position: center;
+    background-size:cover;
+}
+.prod
+{
+    background-color: rgba(206, 206, 206, 0.8);
+  
+}
+
+.text-danger
+{
+ font-weight: bolder;
+}
+svg{
+    opacity: 0.99;
+    margin-bottom: 2rem;
+    z-index: 1;
+    animation-name: dd;
+    animation-duration: 1s;
+}
+.navbar ul li a{
+font-size: larger;
+border-bottom: 1px solid rgba(0, 0, 0, 8);
+transition: color  2s; 
+transition: transform 1s ease-out;
+}
+.navbar ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.227);
+    color: red !important;
+    border-radius: 0.7rem;
+    font-weight: bolder;
+    transition: ease-in;
+    transform:scaleX(1.1)
+ 
+}
+.image{
+    width: 3rem;
+}
+
+.sseee{
+    background-color: rgba(17, 17, 17, 0.6);
+    
+}
+.font{
+    font: 1.4em sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 0.3rem;
+}
